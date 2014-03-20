@@ -35,9 +35,7 @@ from treemap.decorators import (json_api_call, render_template, login_or_401,
                                 requires_feature, get_instance_or_404,
                                 creates_instance_user, instance_request,
                                 username_matches_request_user)
-from treemap.util import (package_validation_errors,
-                          bad_request_json_response,
-                          save_image_from_request)
+from treemap.util import package_validation_errors, bad_request_json_response
 from treemap.images import save_image_from_request
 from treemap.search import Filter
 from treemap.audit import (Audit, approve_or_reject_existing_edit,
